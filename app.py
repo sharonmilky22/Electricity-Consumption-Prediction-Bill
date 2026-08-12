@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load trained model
-model = joblib.load("electricity_model.pkl")
+model = joblib.load("Electricity_model.pkl")
 
 # App title
 st.title("Electricity Bill Prediction")
